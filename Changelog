@@ -1,0 +1,10 @@
++ v0.0.0.1
+	1) Tạo project, cấu hình gemfile
+	2) Tạo các trang web: 	root_pages/home
+				static_pages/home
+				static_pages/help
+		Root của web là root_pages/home, do đó, khi vào trang web, mặc định trang root_pages/home sẽ được load.
+		Các trang static_pages/home, static_pages/help đã được làm theo yêu cầu của thầy.
+	3) Em đã sửa lại file:	config/boot.rb để khi rails server sẽ chạy trên cổng 80 thay vì cổng 3000.
+		Khi start rails server, có thể thông báo lỗi. Do cổng 80 cần thiết quyền quản trị để chạy rails server. Em sử dụng rvm trên Ubuntu. Em đã chạy lệnh: rvmsudo rails server
+		Khi đó, rails server chạy trên cổng 80 như bình thường.
