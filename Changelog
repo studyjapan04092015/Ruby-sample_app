@@ -1,3 +1,7 @@
++ v0.0.0.2
+	1) Thêm title cho các trang web theo yêu cầu của thầy.
+	2) Chỉnh lại trang chủ khi vào web server là trang static_pages/home thay vì root_pages/home như ở v0.0.0.1
+
 + v0.0.0.1
 	1) Tạo project, cấu hình gemfile
 	2) Tạo các trang web: 	root_pages/home
