@@ -1,5 +1,5 @@
 User.create!(name:  "Dao Duy Nhan",
-             email: "StudyJapan04092015@gmail.com",
+             email: "StudyJapan@gmail.com",
              password:              "123456hml",
              password_confirmation: "123456hml",
              admin: true)
