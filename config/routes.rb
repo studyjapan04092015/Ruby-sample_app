@@ -1,9 +1,5 @@
 Rails.application.routes.draw do
-  resources :users
-  resources :users
-  resources :users
-  resources :users
-  resources :users
+
   get 'users/new'
 
   get 'root_pages/home'
