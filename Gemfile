@@ -13,10 +13,10 @@ gem 'bootstrap-sass', '3.2.0.0'
 gem 'bcrypt', '3.1.7'
 
 group :development, :test do
-  gem 'byebug'
-  gem 'web-console'
-  gem 'spring'
-  gem 'pg'
+  gem 'sqlite3',     '1.3.9'
+  gem 'byebug',      '3.4.0'
+  gem 'web-console', '2.0.0.beta3'
+  gem 'spring',      '1.1.3'
 end
 
 group :test do
@@ -26,7 +26,7 @@ group :test do
 end
 
 group :production do
-  gem 'pg'
-  gem 'rails_12factor'
+  gem 'pg',             '0.17.1'
+  gem 'rails_12factor', '0.0.2'
 end
 
