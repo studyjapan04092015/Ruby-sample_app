@@ -1,3 +1,7 @@
++ v0.0.0.6
+	1) Hoàn thành module sửa lại thông tin user, liệt kê danh sách các người dùng.
+	2) Tạo cấu trúc của admin, cho phép admin có quyền xoá những user khác.
+	
 + v0.0.0.0.5
 	1) Hoàn thành các module login và logout theo yêu cầu.
 
