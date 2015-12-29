@@ -13,7 +13,6 @@ gem 'bootstrap-sass', '3.2.0.0'
 gem 'bcrypt', '3.1.7'
 
 group :development, :test do
-  gem 'sqlite3'
   gem 'byebug'
   gem 'web-console'
   gem 'spring'
@@ -27,7 +26,6 @@ group :test do
 end
 
 group :production do
-  gem 'sqlite3'
   gem 'pg'
   gem 'rails_12factor'
 end
