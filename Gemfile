@@ -17,6 +17,7 @@ group :development, :test do
   gem 'byebug'
   gem 'web-console'
   gem 'spring'
+  gem 'pg'
 end
 
 group :test do
@@ -26,6 +27,7 @@ group :test do
 end
 
 group :production do
+  gem 'sqlite3'
   gem 'pg'
   gem 'rails_12factor'
 end
