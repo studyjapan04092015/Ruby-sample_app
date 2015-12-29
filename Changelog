@@ -1,7 +1,12 @@
++ v0.0.0.4
+	1) Enable bootstrap.
+	2) Tuỳ biến một số style đơn giản.
+	3) Tạo được cơ sở dữ liệu, đăng kí mới một user vào cơ sở dữ liệu
+	
 + v0.0.0.3
 	1) Đã thêm các phần header như yêu cầu của chương 5.
 	2) Hoàn thành toàn bộ bài tập về nhà tuần thứ 4.
-	
+
 + v0.0.0.2
 	1) Thêm title cho các trang web theo yêu cầu của thầy.
 	2) Chỉnh lại trang chủ khi vào web server là trang static_pages/home thay vì root_pages/home như ở v0.0.0.1
